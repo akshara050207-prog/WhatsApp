@@ -1,0 +1,51 @@
+name: nextalk
+description: "NexTalk - Modern, Production-Ready E2E Encrypted Messaging Application"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  firebase_storage: ^12.4.4
+  firebase_messaging: ^15.2.4
+  firebase_app_check: ^0.3.2+4
+  flutter_riverpod: ^2.6.1
+  cryptography: ^2.7.0
+  flutter_secure_storage: ^9.2.4
+  flutter_contacts: ^2.3.1
+  permission_handler: ^11.4.0
+  image_picker: ^1.1.2
+  file_picker: ^8.1.7
+  record: ^6.0.0
+  audioplayers: ^6.1.0
+  cached_network_image: ^3.4.1
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: any
+  flutter_launcher_icons: "^0.14.3"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/app_icon.png
+    - assets/splash_screen.jpeg

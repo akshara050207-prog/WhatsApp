@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "624134353663",
+    "project_id": "whatsapp-63544",
+    "storage_bucket": "whatsapp-63544.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624134353663:android:e6fc8643d5ee5ed591d2ca",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsD66YzmoLAUs80HAFqNkhoJ-9MyonPso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624134353663:android:7a2d0cff8c0bc7e291d2ca",
+        "android_client_info": {
+          "package_name": "com.nextalk.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsD66YzmoLAUs80HAFqNkhoJ-9MyonPso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1 @@
+export '../features/chat/chat_detail_screen.dart';
